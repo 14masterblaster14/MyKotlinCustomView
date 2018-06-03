@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="face_button_dimen">50dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+</resources>
