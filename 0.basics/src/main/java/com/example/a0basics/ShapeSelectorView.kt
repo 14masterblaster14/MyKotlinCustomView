@@ -34,6 +34,7 @@ class ShapeSelectorView(context: Context?, attrs: AttributeSet?) : View(context,
         private const val DEFAULT_SHAPE_COLOR = Color.BLUE
         private const val DEFAULT_DISPLAY_SHAPE_NAME = false
     }
+
     private var shapes = listOf<String>("Square","Circle","Triangle")
     private var currentShapIndex = 0
     private var shapeColor = DEFAULT_SHAPE_COLOR

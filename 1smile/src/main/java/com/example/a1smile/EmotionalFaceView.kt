@@ -135,8 +135,12 @@ class EmotionalFaceView(context: Context?, attrs: AttributeSet?) : View(context,
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
+
+        // Resolve the size based on our minimum and the measure spec
         size = Math.min(measuredWidth, measuredHeight)
 
+        // Calling this method determines the measured width and height
+        // Retrieve with getMeasuredWidth or getMeasuredHeight methods later
         setMeasuredDimension(size, size)
 
     }
