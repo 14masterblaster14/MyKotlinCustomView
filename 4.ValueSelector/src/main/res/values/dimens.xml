@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Value Selector Attributes -->
+    <dimen name="valueSelector_height">100dp</dimen>
+    <dimen name="valueSelector_hMargin">0dp</dimen>
+
+    <dimen name="updateButtonMargin">40dp</dimen>
+
+    <dimen name="valueSelector_text">30sp</dimen>
+    <dimen name="valueSelector_label_text">14sp</dimen>
+    <dimen name="valueSelector_margin_top">14dp</dimen>
+    <dimen name="valueSelector_button_hMargin">25dp</dimen>
+    <dimen name="valueSelector_button_insideMargin">10dp</dimen>
+
+
+    <!-- Value Bar Attributes -->
+    <dimen name="value_bar_height">60dp</dimen>
+    <dimen name="value_bar_padding_top">16dp</dimen>
+    <dimen name="value_bar_barHeight">10dp</dimen>
+    <dimen name="value_bar_circleRadius">12dp</dimen>
+    <dimen name="value_bar_circleTextSize">14dp</dimen>
+    <dimen name="value_bar_labelTextSize">18dp</dimen>
+    <dimen name="value_bar_maxValueTextSize">24dp</dimen>
+    <dimen name="value_bar_padding_horizontal">12dp</dimen>
+    <dimen name="value_bar_spaceAfterBar">14dp</dimen>
+</resources>

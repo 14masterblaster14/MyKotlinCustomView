@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Layout"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="italic|bold"
+            app:layout_constraintBottom_toTopOf="@id/valueSelector"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.example.a4valueselector.ValueSelector
+            android:id="@+id/valueSelector"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/valueSelector_height"
+            app:layout_constraintBottom_toTopOf="@id/valueBar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+        <com.example.a4valueselector.ValueBar
+            android:id="@+id/valueBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/value_bar_padding_horizontal"
+            android:paddingRight="@dimen/value_bar_padding_horizontal"
+            android:paddingTop="@dimen/value_bar_padding_top"
+            app:layout_constraintBottom_toTopOf="@id/updateButton"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/valueSelector"
+            custom:barHeight="@dimen/value_bar_barHeight"
+            custom:baseColor="@color/navy"
+            custom:circleRadius="@dimen/value_bar_circleRadius"
+            custom:circleTextColor="@color/white"
+            custom:circleTextSize="@dimen/value_bar_circleTextSize"
+            custom:fillColor="@color/red"
+            custom:labelText="@string/valueBarLabel"
+            custom:labelTextColor="@color/navy"
+            custom:labelTextSize="@dimen/value_bar_labelTextSize"
+            custom:maxValueTextColor="@color/navy"
+            custom:maxValueTextSize="@dimen/value_bar_maxValueTextSize"
+            custom:spaceAfterBar="@dimen/value_bar_spaceAfterBar" />
+
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            app:layout_constraintBottom_toTopOf="@id/showValueBar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/valueBar" />
+
+        <Button
+            android:id="@+id/showValueBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Vertical Range Picker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updateButton" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

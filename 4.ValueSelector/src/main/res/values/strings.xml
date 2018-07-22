@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">1.1Basics</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="valueSelector_label">VALUE</string>
+    <string name="valueBarLabel">CURRENT VALUE</string>
+    <string name="currency_symbol">$</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomProgressBar">
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="title" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="unit" format="string" />
+        <attr name="unitColor" format="color" />
+        <attr name="unitTextSize" format="dimension" />
+        <attr name="backgroundStrokeWidth" format="dimension" />
+        <attr name="progressStrokeWidth" format="dimension" />
+        <attr name="spaceAfterTitle" format="dimension" />
+    </declare-styleable>
+
+</resources>

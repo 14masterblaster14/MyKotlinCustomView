@@ -1,1 +1,1 @@
-include ':app', ':1smile', ':2piano', ':0.basics', ':1.1Paint', ':3.keyboard'
+include ':app', ':1smile', ':2piano', ':0.basics', ':4.ValueSelector', ':3.keyboard', ':5.circularprogressbar', ':6.fancontroller'

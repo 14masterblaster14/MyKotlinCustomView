@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<android.support.constraint.ConstraintLayout
+         android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.constraint.ConstraintLayout>-->
+
+    <EditText
+        android:id="@+id/valueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/valueSelector_margin_top"
+        android:background="@null"
+        android:enabled="false"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="@dimen/valueSelector_text" />
+
+    <TextView
+        android:id="@+id/valueLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valueTextView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/valueSelector_label"
+        android:textSize="@dimen/valueSelector_label_text" />
+
+    <ImageView
+        android:id="@+id/minusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/valueLabel"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/valueSelector_button_hMargin"
+        android:layout_marginRight="@dimen/valueSelector_button_insideMargin"
+        android:layout_marginTop="@dimen/valueSelector_button_hMargin"
+        android:clickable="true"
+        android:src="@drawable/valueselect_minus_state" />
+
+    <ImageView
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valueLabel"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/valueSelector_button_hMargin"
+        android:layout_marginLeft="@dimen/valueSelector_button_insideMargin"
+        android:layout_marginTop="@dimen/valueSelector_button_hMargin"
+        android:clickable="true"
+        android:src="@drawable/valueselect_plus_state" />
+
+</merge>

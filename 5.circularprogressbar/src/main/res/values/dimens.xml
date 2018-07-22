@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Progress Bar Attributes -->
+    <dimen name="backgroundStrokeWidth">4dp</dimen>
+    <dimen name="progressStrokeWidth">8dp</dimen>
+    <dimen name="spaceAfterTitle">4dp</dimen>
+
+</resources>

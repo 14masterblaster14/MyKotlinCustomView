@@ -9,10 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/0.basics" />
-            <option value="$PROJECT_DIR$/1.1Paint" />
             <option value="$PROJECT_DIR$/1smile" />
             <option value="$PROJECT_DIR$/2piano" />
             <option value="$PROJECT_DIR$/3.keyboard" />
+            <option value="$PROJECT_DIR$/4.ValueSelector" />
+            <option value="$PROJECT_DIR$/5.circularprogressbar" />
+            <option value="$PROJECT_DIR$/6.fancontroller" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

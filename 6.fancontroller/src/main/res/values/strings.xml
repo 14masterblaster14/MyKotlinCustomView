@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">6.FanController</string>
+    <string name="action_settings">Fan Settings</string>
+
+    <!--
+    <string name="action_settings">Selections</string>
+-->
+    <string name="dial_settings3">Selections: 3</string>
+    <string name="dial_settings4">Selections: 4</string>
+    <string name="dial_settings5">Selections: 5</string>
+    <string name="dial_settings6">Selections: 6</string>
+    <string name="dial_settings7">Selections: 7</string>
+    <string name="dial_settings8">Selections: 8</string>
+    <string name="dial_settings9">Selections: 9</string>
+    <string name="customViewLabel">Fan Controller</string>
+</resources>

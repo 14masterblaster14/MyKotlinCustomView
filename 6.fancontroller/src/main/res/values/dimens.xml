@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- Dial View Attributes -->
+
+    <dimen name="standard_margin">8dp</dimen>
+    <dimen name="wide_padding">16dp</dimen>
+    <dimen name="wide_margin">24dp</dimen>
+    <dimen name="dial_width">200dp</dimen>
+    <dimen name="dial_height">200dp</dimen>
+
+</resources>
